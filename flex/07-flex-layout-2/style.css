@@ -9,13 +9,14 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding: 0 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
 
-  font-weight: bold;
-  font-size: 25px;
+  
+  font-size: 32px;
+  font-weight: 900;
   
   
 }
@@ -29,7 +30,7 @@ body {
 
 .sidebar {
   flex-shrink: 0;
-  padding: 15px;
+  padding: 16px;
 }
 
 .sidebar ul {
@@ -39,7 +40,7 @@ body {
 }
 
 .sidebar li {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .sidebar a {
@@ -53,18 +54,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 40px;
-  gap: 15px;
+  
+  
+ 
 }
 
 
 .card {
-  padding: 10px;
+  padding: 16px;
   width: 300px;
-  height: 300px;
+  margin: 16px;
+  
 }
 
 .footer {
   display: flex;
+  
   align-items: center;
   justify-content: center;
   height: 72px;
